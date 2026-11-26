@@ -93,6 +93,7 @@ Before you activate anything new:
 | [Running Marketing Campaigns](https://github.com/SpillwaveSolutions/running-marketing-campaigns-agent-skill) | GA4-aligned UTM creation and validation, brand checking, marketing calendar planning, launch frameworks, and ROI/attribution references.[8] | A single Agent Skill with local Python utilities.[8] | Good fit when you want a smaller, inspectable campaign workflow. Validate any CSV or URL output before production use. |
 | [AI Marketing Skills](https://github.com/ericosiu/ai-marketing-skills) | Growth experiments, revenue intelligence, conversion work, content operations, SEO operations, pipeline analysis, and reporting.[9] | Script-heavy coding-agent workflows with `SKILL.md` files, Python dependencies, API-key setup, optional telemetry, and security utilities.[9] | **Advanced automation.** Use least-privilege credentials, evaluate telemetry, and keep data handling and execution under human control. |
 | [OpenClaudia - analytics and research skills](https://github.com/OpenClaudia/openclaudia-skills) | GA4, Search Console, Ads reporting, YouTube, brand and competitive research, and AI-citation reporting.[10] | API-backed modular skills.[10] | Review API scope, costs, and data retention. Use test accounts where possible. |
+| [Qonvert Marketing AI - Review Ad Performance](https://github.com/Qonvert-Marketing-AI/qonvert-marketing-skills/blob/main/skills/review-ad-performance/SKILL.md) | Reviews spend, clicks, recorded conversions, and search terms from a supplied Google Ads or Yandex Direct export. Returns changes to consider and a measurement plan.[18] | MIT Agent Skill (`SKILL.md`); manually exercised in Codex on an export.[18] | The standalone skill is instruction-only. It uses supplied data and proposes actions for human review. |
 
 ### Social and distribution
 
@@ -168,3 +169,4 @@ This repository links to third-party packages. We do **not** run, audit, endorse
 [15]: https://github.com/vercel-labs/skills "Vercel Skills CLI"
 [16]: https://composio.dev/content/best-marketing-skills "Composio Marketing Skills Overview"
 [17]: https://modelcontextprotocol.io/specification/2025-06-18/server/tools "MCP Tools Specification"
+[18]: https://github.com/Qonvert-Marketing-AI/qonvert-marketing-skills/blob/main/skills/review-ad-performance/SKILL.md "Qonvert Marketing AI - Review Ad Performance"
